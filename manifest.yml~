@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: Automted-Watering-System-v2
+  - name: Automated-Watering-System-v2
     buildpack: predix_openresty_buildpack
     path: dist
     memory: 64M

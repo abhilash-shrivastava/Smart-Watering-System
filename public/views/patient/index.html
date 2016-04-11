@@ -1,0 +1,45 @@
+<px-card>
+
+    <article role="article">
+
+        <h2 class="u-mt0 u-pt+">Patients</h2>
+
+        <div class="flex">
+
+            <table>
+
+              <thead>
+
+                <tr>
+
+                  <th>Patient ID</th>
+
+                  <th>First Name</th>
+
+                  <th>Last Name</th>
+
+                </tr>
+
+              </thead>
+
+              <tbody>
+
+                <tr ng-repeat="patient in patients">
+
+                  <td>{{patient.id}}</td>
+
+                  <td>{{patient.firstName}}</td>
+
+                  <td>{{patient.lastName}}</td>
+
+                </tr>
+
+              </tbody>
+
+            </table>
+
+        </div>
+
+    </article>
+
+</px-card>

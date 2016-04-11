@@ -1,0 +1,10 @@
+<section>
+  <h1>Time Series Chart</h1>
+
+<px-chart>
+    <px-chart-controls data-controls show-date-range="true"></px-chart-controls>
+    <px-chart-series id="turbine-time-series">
+  <iron-ajax url="turbine-time-series/data.json"></iron-ajax>
+</px-chart-series>
+</px-chart>
+</section>
