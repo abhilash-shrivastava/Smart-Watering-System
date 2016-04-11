@@ -42,6 +42,14 @@ define(['angular', 'angular-ui-router'], function(angular) {
             .state('blanksubpage', {
                 url: '/blanksubpage',
                 templateUrl: 'views/blank-sub-page.html'
+            })
+            .state('lawn', {
+                url: '/lawn',
+                templateUrl: 'views/lawn.html'
+            })
+            .state('plant', {
+                url: '/plant',
+                templateUrl: 'views/plant.html'
             });
 
 
