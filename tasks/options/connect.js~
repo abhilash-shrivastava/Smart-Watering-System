@@ -10,7 +10,7 @@ var config = {
    */
   uaa: {
     clientId: 'my_client',
-    serverUrl: 'https://5ab9f689-ab69-470d-a883-2e159cfb6bc9.predix-uaa.run.aws-usw02-pr.ice.predix.io',
+    serverUrl: 'https://65b0c48b-1fc2-46c3-a36d-6661ece674ce.predix-uaa.run.aws-usw02-pr.ice.predix.io',
     defaultClientRoute: '/about',
     base64ClientCredential: 'bXlfY2xpZW50OlpVUzM3eVc0RHM3azBXWDVFYUFuYzBENjJVdWhyU2JnODFIdkg5b3FBV2M9'
   },
@@ -24,7 +24,7 @@ var config = {
   proxy: {
     '/api/view-service(.*)': {
       url: 'https://predix-views.run.aws-usw02-pr.ice.predix.io/api$1',
-      instanceId: '317ed1d4-f7c3-4bed-ab5e-dbccbbd3c452'
+      instanceId: 'b95d5a1c-960f-456b-bb15-46ef710c2768'
     }
   }
 };

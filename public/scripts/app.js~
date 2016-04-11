@@ -41,7 +41,7 @@ define([
             tabs: [
                 {icon: 'fa-tachometer', state: 'dashboards', label: 'Dashboards'},
                 {icon: 'fa-file-o', state: 'blankpage', label: 'About', subitems: [
-                    {state: 'blanksubpage', label: 'Blank Sub Page'}
+                    {state: 'blanksubpage', label: 'Water Usage'}
                 ]}
             ]
         };

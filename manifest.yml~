@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: Automated-Watering-System-v2
+  - name: Smart-Watering-System
     buildpack: predix_openresty_buildpack
     path: dist
     memory: 64M
@@ -9,5 +9,5 @@ applications:
             - my_redis_instance # change this to your redis service instance name
             - my_view_instance # change this to your view service instance name
     env:
-      UAA_SERVER_URL: https://5ab9f689-ab69-470d-a883-2e159cfb6bc9.predix-uaa.run.aws-usw02-pr.ice.predix.io # change to your UAA instance url
+      UAA_SERVER_URL: https://65b0c48b-1fc2-46c3-a36d-6661ece674ce.predix-uaa.run.aws-usw02-pr.ice.predix.io # change to your UAA instance url
       REDIS: redis-1
