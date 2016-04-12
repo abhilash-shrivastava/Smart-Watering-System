@@ -1,0 +1,23 @@
+[
+    {
+        "uri": "lawn1",
+        "classification": "child",
+        "description": "Lawn I",
+        "assetId": "Child Asset",
+        "parent": null
+    },
+    {
+        "uri": "lawn2",
+        "classification": "child",
+        "description": "Lawn II",
+        "assetId": "Child Asset 2",
+        "parent": null
+    },
+    {
+        "uri": "lawn3",
+        "classification": "child",
+        "description": "Lawn III",
+        "assetId": "Child Asset 3",
+        "parent": null
+    }
+]
