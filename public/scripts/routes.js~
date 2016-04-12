@@ -49,7 +49,8 @@ define(['angular', 'angular-ui-router'], function(angular) {
             })
             .state('plant', {
                 url: '/plant',
-                templateUrl: 'views/plant.html'
+                templateUrl: 'views/plant.html',
+                controller: 'PlantsCtrl'
             });
 
 

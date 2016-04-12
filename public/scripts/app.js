@@ -33,6 +33,13 @@ define([
      */
     predixApp.controller('MainCtrl', ['$scope', '$rootScope', 'PredixUserService', function ($scope, $rootScope, predixUserService) {
 
+//we'll store plants in rootScope for now, so we can use them on multiple views later.
+
+	    $rootScope.plants = [
+
+               { id: 1, plantName: 'Grass', moistureLevel: '50%' }
+
+	    ];
         //Global application object
         window.App = $rootScope.App = {
             version: '1.0',

@@ -1,3 +1,76 @@
 <px-card>
-<p>Plant details will come here</p>
+
+    <article role="article">
+
+        <h2 class="u-mt0 u-pt+">Plants</h2>
+        <div class="flex">
+
+	    <form ng-submit="addPlant()">
+
+    <ol class=list-bare>
+
+      <li class=form-field>
+
+        <label for="plant-name">Plant Name: </label>
+
+        <input type="text" id="plant-name" placeholder="i.e. Cherry" ng-model="form.plantName" class="text-input input--small">
+
+      </li>
+
+      <li class=form-field>
+
+        <label for="moisture-level">Moisture Level: </label>
+
+        <input type="text" id="moisture-level" placeholder="i.e. 70%" ng-model="form.moistureLevel" class="text-input input--small">
+
+      </li>
+
+    </ol>
+
+    <input class="btn btn--primary" type="submit" value="Add Plant">
+
+</form>
+
+	</div>
+
+	<br/>
+<p>Search: <input ng-model="filterText"></p>
+        <div class="flex">
+
+            <table>
+
+              <thead>
+
+                <tr>
+
+                  <th>Plant ID</th>
+
+                  <th>Plant Name</th>
+
+                  <th>Moisture Level</th>
+
+                </tr>
+
+              </thead>
+
+              <tbody>
+
+                <tr ng-repeat="plant in plants | filter:filterText">
+
+                  <td>{{plant.id}}</td>
+
+                  <td>{{plant.plantName}}</td>
+
+                  <td>{{plant.moistureLevel}}</td>
+
+                </tr>
+
+              </tbody>
+
+            </table>
+
+        </div>
+
+    </article>
+
 </px-card>
